@@ -1,0 +1,26 @@
+:: :: StoryData
+{
+    "ifid": "8CBD6E11-7B67-4A64-BB70-09429EAC5F21",
+    "format": "SugarCube",
+    "format-version": "2.33.4"
+}
+
+:: StoryTitle
+Tell Me About Yourself
+
+:: Start
+
+Sign into LinkedOut:
+
+-collect player name-
+
+"Now that, is fuckn' sexy!" 
+After four long years of fretting, hustling and existential crisis-ing, your resume is finaly looking, dare you say, very professional.
+All throughout college, you've been taking on that extra club, putting in those extra hours, and making those extra portflio peices for this very moment. 
+The moment after your last college exam, log into your LinkedOut account and think, "What the fuck are we gonna do now."
+
+Your profile picture is what dad keeps refering to as "the cherry on top". Clean while blouse, barely-there makeup and a big (photoshopped-white) smile.
+He forced you to take it right before you "did that weird thing to your hair".
+
+-make player choose job to apply for-
+
