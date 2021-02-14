@@ -1,4 +1,4 @@
-:: :: StoryData
+:: StoryData
 {
     "ifid": "8CBD6E11-7B67-4A64-BB70-09429EAC5F21",
     "format": "SugarCube",
@@ -6,60 +6,50 @@
 }
 
 :: StoryTitle
-Tell Me About Yourself
+Title ???
 
 :: Start
+At the mall with mom, you see the cutest (player chooses between dress/shoes/jacket) in the window of a store. 
 
-Sign into LinkedOut:
+"Super cute! But you know we cant afford that." 
 
--collect player name-
+Shes right, plus you don't think it's possible to pull off something so flashy.  
+You've always been a very plain person. 
+Favorite ice cream?  Vanilla. 
+Favorite animal? Cat / Dog
+Favorite color? ...You don't even have a solid enough opinion to choose!
 
-"Now that, is fuckn' sexy!" 
-After four long years of fretting, hustling and existential crisis-ing, your resume is finaly looking, dare you say, very professional.
-All throughout college, you've been taking on that extra club, putting in those extra hours, and making those extra portflio peices for this very moment. 
-The moment after your last college exam, log into your LinkedOut account and think, "What the fuck are we gonna do now."
+And a this point, you feel like it’s what people expect from you. To blend in, go with the flow and never make any waves. 
 
-Your profile picture is what dad keeps refering to as "the cherry on top". Clean while blouse, barely-there makeup and a big (photoshopped-white) smile.
-He forced you to take it right before you "did that weird thing to your hair".
+But you don’t mind! That just you!
 
+[[You leave the mall empty handed.|home]]
 
-[[linkedout]] [[insta]]
+:: home
+Later that night...
+Finished your homework early, as per usual. 
+There's still an extra hour to kill before your very sensible 8 pm bedtime. 
 
-:: insta
+You give into your [[guilty pleaser|computer]]
 
+Google Search History:
 
+(player gets to pick from one option: DRESS UP GAMES)
 
-::linkedout
+This is so embarssing, youre too old for this! These games are for little girls! 
+But its so addictingggggggg! And just plain fucking cute! 
+Plus, you never know what youre gonna get, even the games with ulgy options are fun!!
 
--make player choose job to apply for-
+You begin to scroll
 
+Done this one, done this one, yup done that one.
 
-:: ending1
-You can't do this. 
-It frightens you too much. Losing everything you worked for over something as silly as "your personal life."??
-If feels a little wrong to give up expressing yourself, but it can't be helped! Your carrer is most important.
+You've done everything from the basic red carpet look to 
+“Kawaii Elsa is a Dragon Wedding Day/Fashionista Hiking Babies/Goth Ocean Voyage Party”
 
-You delete all your social media posts, schedule a hair apointment and google "where to buy professional clothes."
+hmmmm
 
-You hope to start clean at a new job. 
+AH 
+What is this?
 
-
-:: ending2
-You can't do this. 
-No matter how much you want this job, no matter how quailtified you are for it, you can't stand by while your personal freedom is taken away from you!
-The way you dress outside of work, what hobbys you have and who you hang out with has nothing to do with how capiable you are at your job!
-
-You schedule a meeting to talk about your views with the boss. Either they understand, or you look for a job that has less of a stick up their ass.
-You're not compormising.
-
-:: ending3
-You can't fUCKING do this! 
-Nope.
-nope nope nope nope nope nope nope
-
-I do not wish to partake in society.
-
-You plan to live the rest of your days alone on a farm. 
-
-(you know you can't do that, right?)
-[[ending1]]  [[ending2]]
+NAME OF THE GAME I HAVNT NAMED YET [[game]]
