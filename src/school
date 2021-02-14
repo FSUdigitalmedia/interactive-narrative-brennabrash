@@ -1,1 +1,28 @@
 :: school
+
+You've never had a more self conscious walk from the bus to your locker.
+Yet when you think about how cute the shoes are, you get a little extra pep in your step.
+
+"Ummmmmmm hello gorgeous!," calls you your best friend. 
+"What is going on with you, did your mom finally cave and buy something from that shop at the mall? You look so stunning!!"
+
+[[accept the compliment|accept]] [[shy away|shy]]
+
+:: accept
+Ahhh thank you, aren't the shoes adorable! But you wont believe how I got them...
+
+Before you can reaccount the bizzar events of this morning, the first period bell rings and [[everyone scatters|first period]].
+
+You gained one confidence point!
+
+
+:: shy
+"Ugh, I don't know, I feel so silly!"
+
+You fumble around with the lock on your locker. 
+
+"Maybe I should change into that extra outfit I keep in here..."
+
+But before you can get it open, the first period bell rings and [[everyone scatters|first period]]. 
+
+:: first period
