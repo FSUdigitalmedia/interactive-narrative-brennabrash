@@ -5,20 +5,23 @@
     "format-version": "2.33.4"
 }
 
+
 :: StoryTitle
-Title ???
+Prom Season
 
 :: Start
 Gaspppppp!!
 
-[img[../assets/prom1.png]][img[../assets/prom2.png]][img[../assets/prom3.png]]
-[img[../assets/prom4.png]][img[../assets/prom5.png]][img[../assets/prom6.png]]
-
 You can't help but stop and stare at the Prom dresses in the window!
 
-Theyre all so stunning! But you esspecially cant take your eyes off of: 
+Theyre all so stunning! But you esspecially can't take your eyes off of...
 
-She's right, plus you don't think it's possible to pull off something so flashy.  
+[img[../assets/prom4.png][dress]] [img[../assets/prom2.png][dress]][img[../assets/prom3.png][dress]]
+[img[../assets/prom1.png][dress]][img[../assets/prom5.png][dress]][img[../assets/prom6.png][dress]]
+
+:: dress
+Sigh... so gorgerous! I wish it was possible for me to pull off something so flashy.  
+
 You've always been a very plain person. 
 Favorite ice cream?  Vanilla. 
 Favorite animal? Cat / Dog
@@ -28,6 +31,8 @@ And a this point, you feel like it’s what people expect from you. To blend in,
 
 But you don’t mind! That just you!
 
+Plus, you probably wont be going to prom anyways...
+
 [[You leave the mall empty handed.|home]]
 
 :: home
@@ -36,6 +41,8 @@ Finished your homework early, as per usual.
 There's still an extra hour to kill before your very sensible 8 pm bedtime. 
 
 You give into your [[guilty pleaser|computer]]
+
+:: computer
 
 Google Search History:
 
