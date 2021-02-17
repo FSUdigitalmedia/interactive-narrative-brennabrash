@@ -27,7 +27,9 @@ h1 {
 
 :: Start
 <<timed 1s t8n>> //Gaspppppp!!//
+
 <<next 3s t8n>> Your face inches away from the glass of the mall shop window, you gander at the @@color:magenta;most gorgeous prom dresses@@ known to man. 
+
 <<next 5s t8n>> Theyre all so stunning! But you esspecially can't take your eyes off of...
 
 <<next 2s t8n>> [img[../assets/prom4.png][dress]] [img[../assets/prom2.png][dress]][img[../assets/prom3.png][dress]]
@@ -35,51 +37,64 @@ h1 {
 <</timed>>
 
 :: dress
-Sigh... so gorgerous! 
-<<timed 2s t8n>> I wish it was possible for me to pull off something so flashy.  
+!Sigh... so gorgerous! 
+<<timed 2s t8n>> "I wish it was possible for me to pull off something so flashy."
 
 <<next 2s t8n>> You've always been a very plain person. 
-<<next 2s t8n>> <<linkreplace "Favorite ice cream?">>Vanilla.<</linkreplace>>
-<<linkreplace "Bed time?">>8 P.M. sharp (9 P.M. on the weekends oooo)<</linkreplace>> 
-<<linkreplace"Favorite color?">>...You don't even have a solid enough opinion to choose!
 
-<<next 2s t8n>>And a this point, you feel like it’s what people expect from you. To blend in, go with the flow and never make any waves. 
+<<next 2s t8n>> <<linkreplace "Favorite ice cream?">>@@color:magenta;Vanilla.@@<</linkreplace>>
+<<linkreplace "Bed time?">>@@color:magenta;8 P.M. sharp (9 P.M. on the weekends oooo)@@<</linkreplace>> 
+<<linkreplace"Favorite color?">>@@color:magenta;...You don't even have a solid enough opinion to choose!@@<</linkreplace>>
+
+<<next 5s t8n>>And a this point, you feel like it’s what people expect from you. To blend in, go with the flow and never make any waves. 
 
 <<next 2s t8n>>But you don’t mind! That just you!
 
-<<next 2s t8n>>Plus, you probably wont be going to prom anyways...
+<<next 2s t8n>>Plus, you probably won't be going to prom anyways...
 
 [[You leave the mall empty handed.|home]]
-<</linkreplace>>
+
 <</timed>>
 
 :: home
-Later that night...
+!Later that night...
 Finished your homework early, as per usual. 
-There's still an extra hour to kill before your very sensible 8 pm bedtime. 
 
-You give into your [[guilty pleaser|computer]]
+There's still an extra hour to kill before that //very sensible// 8 pm bedtime. 
+
+You give into your [[guilty pleasur :)|computer]]
 
 :: computer
 
-Google Search History:
+!Google Search History:
 
-(player gets to pick from one option: DRESS UP GAMES)
+<<listbox "$google" autosselect>>
+<<option "DRESS UP GAMES">> 
+<</listbox>>
 
-This is so embarssing, youre too old for this! These games are for little girls! 
-But its so addictingggggggg! And just plain fucking cute! 
-Plus, you never know what youre gonna get, even the games with ulgy options are fun!!
+[[search]]
 
-You begin to scroll
+:: search
 
-Done this one, done this one, yup done that one.
+<<timed 0.5s t8n>> This is so embarssing, youre too old for this! These games are for little kids! 
+<<next 3s t8n>>But its so addictingggggggg! And just plain effing cute! 
+<<next 3s t8n>>Plus, you never know what youre gonna get, even the games with ulgy options are fun!!
 
-You've done everything from the basic red carpet look to 
-“Kawaii Elsa is a Dragon Wedding Day/Fashionista Hiking Babies/Goth Ocean Voyage Party”
+<<next 3s t8n>>You begin to scroll
 
-hmmmm
+<<next 1s t8n>>Done this one, done this one, yup done that one.
 
-AH 
-What is this?
+<<next 2s t8n>>You've done everything from the @@color:magenta;basic red carpet@@ look to 
+<<cycle "$weird autoselect">>
+<<option "Disney Princesses as Dragons!">>
+<<option "Fashionista Babies go Hiking!">>
+<<option "Goth Ocean Cruise Party">>
+<</cycle>>
 
-NAME OF THE GAME I HAVNT NAMED YET [[game]]
+<<next 5s t8n>>hmmmm
+
+<<next 2s t8n>>AH 
+<<next 0.5s t8n>>What is this?
+
+<<next 1s t8n>>NAME OF THE GAME I HAVNT NAMED YET [[game]]
+<</timed>>
