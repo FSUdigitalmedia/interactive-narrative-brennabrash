@@ -9,12 +9,14 @@
 :: StoryTitle
 Prom Season
 
+:: StoryInit
+<<set $points to 0>>
+
 :: Start
-Gaspppppp!!
-
-You can't help but stop and stare at the Prom dresses in the window!
-
-Theyre all so stunning! But you esspecially can't take your eyes off of...
+<<timed 2s t8n>> Gaspppppp!!
+<<next 2s t8n>> You can't help but stop and stare at the Prom dresses in the window!
+<<next 2s t8n>> Theyre all so stunning! But you esspecially can't take your eyes off of...
+<</timed>>
 
 [img[../assets/prom4.png][dress]] [img[../assets/prom2.png][dress]][img[../assets/prom3.png][dress]]
 [img[../assets/prom1.png][dress]][img[../assets/prom5.png][dress]][img[../assets/prom6.png][dress]]
