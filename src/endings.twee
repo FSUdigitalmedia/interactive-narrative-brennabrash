@@ -1,0 +1,9 @@
+:: endings
+
+<<if $points lt 4>>
+TRY AGAIN
+<<if>>
+
+<<if $points gt 3>>
+YOU win
+<</if>>

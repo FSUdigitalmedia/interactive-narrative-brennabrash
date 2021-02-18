@@ -1,54 +1,52 @@
-:: morningone
+:: morning
 
-BEEP BEEP BEEP
-
+!BEEP BEEP BEEP
 Ugh, 6 am already??
 
 You hear a soft knock at the door, your mom enters.
 
-Hey honey, there's a package here for you! It’s so strange, I swear it wasn’t on the porch last night, and I’ve never heard of the mail man coming this early in the morning.
+<<timed 3s t8n>> "Hey honey, there's a package here for you! It’s so strange, I swear it wasn’t on the porch last night, and I’ve never heard of the mail man coming this early in the morning."
 
-Weird… in your half awake state you don’t care much about the schedule of your local mailman. 
+<<next 3s t8n>> Weird… in your half awake state you don’t care much about the schedule of your local mailman. 
 
-"Thanks, just leave it on my desk."
+<<next 3s t8n>>"Thanks mom, just leave it on the desk!"
+Hmmm what could it be? I don't think I ordered anything. 
 
-[[open the box|box]] [[get ready|ready]]
+<<next 0.5s t8n>>[[open the box|box]] 
+<</timed>>
 
 
 :: box
 You open the box….
 
-Uhhhhh are you still dreaming??
+<<timed 3s t8n>> Uhhhhh are you still dreaming??
 
-This can be possible….
+<<next 3s t8n>> This can't be possible….
 
-Yet, here it is
+<<next 3s t8n>> Yet, here it is
 
-The outfit you picked out in the game last night… its real...
+<<next 3s t8n>> The outfit you picked out in the game last night… its real...
 its here...
 and its in my size??!!??!?!?
 
-What the fuck is going on?
-
+<<next 3s t8n>> What the fuck is going on?
 You start to panic, is there some creepy ass stalker on the other side of that game?? Are you about to die??
 
+<<next 3s t8n>> But.... there can't be any harm in trying it on....
 
-[[choose to wear the outfit|choose]]
-[[Leave the outfit alone and get dressed in normal clothes|pass]] 
+<<next 0.5s t8n>> [[get dressed!|dressed]]
+<</timed>>
 
-:: pass
-Your day goes about as usual. Nothing noteworthy.
-(after 5 days you LOSE THE GAME)
-
-::choose
+:: dressed
 
 Ugh! How are you supposed to go out like this!! 
-You turn back and forth in the mirror. I mean, it is soooo stinking cute, but theres no way this isn’t gonna turn heads at school.
-Maybe for someone with a more playful style could pull this off no questions asked, but it will be a whole big deal if the plain girl all of a sudden wasn’t so plain. 
-HOW EMBARRASSING!
+<<timed 3s t8n>>You turn back and forth in the mirror. I mean, it is soooo stinking cute, but theres no way this isn’t gonna turn heads at school.
+<<next 3s t8n>>Maybe for someone with a more playful style could pull this off no questions asked, but it will be a whole big deal if the plain girl all of a sudden wasn’t so plain. 
+<<next 3s t8n>> !HOW EMBARRASSING!
 
-"Heyyyyyyy its time to go!!!!!"
+<<next 3s t8n>>"Heyyyyyyy its time to go!!!!!"
 
-Oh shit! Well, there's no time to change now or you'll miss the bus!!
+<<next 1s t8n>>Oh shit! Well, there's no time to change now or you'll miss the bus!!
 
-[[You leave in the outfit|school]]
+[<<next 0.5s t8n>> [[You leave in the outfit|school]]
+<</timed>>

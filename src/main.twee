@@ -12,6 +12,8 @@ Prom Season
 :: StoryInit
 <<set $points to 0>>
 
+
+
 :: Style [stylesheet]
 body {
   background-color: rgb(240, 200, 227);
