@@ -5,18 +5,13 @@
 You jump a little. 
 Whenever they add voices to the characters it's so creepy.
 
-"I am here to unlock your inner fashionista! What path would you like to choose?""
-
-Player picks from these options:
-Mall Goth
-Cottage Core
-Preppy
+"I am here to unlock your inner fashionista! 
 
 Shows outfit we pick, it's on the tame side
  
  They have so many crazy options in this game! But I like this.
 
-You go to click the [[finish button]]
+[[begin!|head]]
 
 :: finish button
 "WHAAATTTT! Common girl you can do better than that!!""
@@ -51,7 +46,32 @@ Her unblinking eyes stare back at you.
 [[Time for bed!|morningone]]
 
 
+:: head
+Pick a head piece!
 
+[img[../assets/head1-01.png][top]] [img[../assets/head2-01.png][top]] [img[../assets/head3-01.png][top]] [img[../assets/head4-01.png][top]] [img[../assets/head5-01.png][top]]
+[img[../assets/head6-01.png][top]] [img[../assets/head7-01.png][top]] [img[../assets/head8-01.png][top]] [img[../assets/head9-01.png][top]] [img[../assets/head10-01.png][top]]
+
+:: top
+Pick a top!
+
+[img[../assets/top1-01.png][bottom]] [img[../assets/top2-01.png][bottom]] [img[../assets/top3.png][bottom]] [img[../assets/top4-01.png][bottom]] [img[../assets/top5-01.png][bottom]]
+[img[../assets/top6-01.png][bottom]] [img[../assets/top7-01.png][bottom]] [img[../assets/top8-01.png][bottom]] [img[../assets/top9-01.png][bottom]] [img[../assets/top10-01.png][bottom]] 
+
+:: bottom
+Pick some bottoms!
+
+[img[../assets/bottom1.png][shoe]] [img[../assets/bottom2-01.png][shoe]] [img[../assets/bottom3-01.png][shoe]] [img[../assets/bottom4-01.png][shoe]] [img[../assets/bottom5-01.png][shoe]]
+[img[../assets/bottom6-01.png][shoe]] [img[../assets/bottom7-01.png][shoe]] [img[../assets/bottom8-01.png][shoe]] [img[../assets/bottom9-01.png][shoe]] [img[../assets/bottom10-01.png][shoe]]
+
+:: shoe
+Pick some kicks!
+
+[img[../assets/shoe1.png][finish]] [img[../assets/shoe2-01.png][finish]] [img[../assets/shoe3-01.png][finish]] [img[../assets/shoe4.png][finish]] [img[../assets/shoe5-01.png][finish]]
+[img[../assets/shoe6-01.png][finish]] [img[../assets/shoes7-01.png][finish]] [img[../assets/shoe8-01.png][finish]] [img[../assets/shoe9-01.png][finish]] [img[../assets/shoe10-01.png][finish]]
+
+
+:: finish
 
 
 :: game day two
