@@ -1,5 +1,4 @@
 :: game
-
 "Hi! My name is @@color:magenta;Polly@@, nice to meet you!"
 
 <<timed 3s t8n>> You jump a little. 
@@ -7,9 +6,14 @@ Whenever they add voices to the characters it's so creepy.
 
 <<next 3s t8n>> "@@color:magenta;I am here to unlock your inner confience!@@"
  
-<<next 3s t8n>> She sounds super cheesy, but you begin clicking around anyways.
+<<next 3s t8n>> She sounds super cheesy, but you begin [[clicking around anyways|clicking]].
+<</timed>>
 
-<<next 3s t8n>> hmmmm maybe a button up... maybe this headband...
+:: clicking 
+hmmmmmm....
+<<timed 3s t8n>> maybe this button up would be cute on her... 
+
+<<next 3s t8n>> maybe this headband...
 
 <<next 6s t8n>> "Hellooooooo I dont have all day!!! And this headband you chose, @@color:magenta;common girl you can do better than that!!@@"
 
@@ -26,7 +30,7 @@ did the game… just hear me??
 
 <<next 3s t8n>>"Uhhhh…. Ok."
 
-<<next 0.5s t8n>>[[I guess lets pick our dream outfit|head]]
+<<next 0.5s t8n>>[[I guess let's pick our dream outfit|head]]
 <</timed>>
 
 :: head
@@ -59,6 +63,8 @@ Pick some kicks!
 
 :: finish
 <<print $chosenhat>> <</print>>
+
+DISPLAY CHOSEN ITEMS HERE
 
 "Oh you were right Polly, I think look is much cutier!"
 
@@ -102,16 +108,17 @@ You leap up, grab your laptop, and search that familiar google search.
 scrolling, scrolling scrolling... 
 <<timed 3s t8n>>AH found it!
 
-"Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it?? "
+<<next 3s t8n>> "Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it?? "
 
-"It was an interesting day for sure... but what is going on!! How do know know my adress, my size, 
+<<next 3s t8n>> "It was an interesting day for sure... but what is going on!! How did you know my adress? Or my size??"
 
-"Chill out!! Not everyone on the internet has access to this game! I only show up for the people who really need me."
+<<next 3s t8n>> "Chill out!! Not everyone on the internet has access to this game! I only show up for the people who really need me."
 
-"Need you...?"  the more she talks the more confused you feel.
+<<next 3s t8n>> "Need you...?"  the more she talks the more confused you feel.
 
-"Yeah, you tottally needed a push in the right direction, dont even deny it!"
+<<next 3s t8n>> "Yeah, you tottally needed @@color:magenta;a push in the right direction@@, dont even deny it!"
 
-You do have to admit, you would have never done anything like this on your own...
+<<next 3s t8n>> "You do have to admit, you would have never done anything like this on your own...
 
-"Now! [[Lets see how many confidence points you earnerd today!|endings]]
+"Now! [[Lets see how many confidence points you earnerd today!|endings]]"
+<</timed>>

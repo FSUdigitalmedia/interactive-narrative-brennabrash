@@ -23,13 +23,13 @@ You open the box….
 
 <<next 3s t8n>> This can't be possible….
 
-<<next 3s t8n>> Yet, here it is
+<<next 3s t8n>> Yet, here it is.
 
-<<next 3s t8n>> The outfit you picked out in the game last night… its real...
-its here...
-and its in my size??!!??!?!?
+<<next 3s t8n>> The outfit you picked out in the game last night… it's real...
+it's here...
+and it's in my size??!!??!?!?
 
-<<next 3s t8n>> What the fuck is going on?
+<<next 3s t8n>> @@color:magenta;What the fuck is going on?@@
 You start to panic, is there some creepy ass stalker on the other side of that game?? Are you about to die??
 
 <<next 3s t8n>> But.... there can't be any harm in trying it on....
@@ -38,9 +38,10 @@ You start to panic, is there some creepy ass stalker on the other side of that g
 <</timed>>
 
 :: dressed
-
 Ugh! How are you supposed to go out like this!! 
+
 <<timed 3s t8n>>You turn back and forth in the mirror. I mean, it is soooo stinking cute, but theres no way this isn’t gonna turn heads at school.
+
 <<next 3s t8n>>Maybe for someone with a more playful style could pull this off no questions asked, but it will be a whole big deal if the plain girl all of a sudden wasn’t so plain. 
 <<next 3s t8n>> !HOW EMBARRASSING!
 

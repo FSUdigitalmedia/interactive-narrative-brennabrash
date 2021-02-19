@@ -1,5 +1,7 @@
 :: school
-
+<<if visited() gt 1>>
+You start that familiar school day all over again...
+<</if>>
 <<timed 0.5s t8n>> You've never had a more self conscious walk from the bus to your locker.
 <<next 2s t8n>> Yet when you think about how cute your new shoes are, you get a little @@color:magenta;extra pep in your step@@.
 
@@ -88,8 +90,8 @@ You now have <<print $points>> points!
 You stare at each other for another second before he just shrugs and goes back to gabbing with his friends. 
 
 <<timed 5s t8n>> What an asshole... do people not even know I exist!! 
-<<timed 5s t8n>> Yup, gonna be thinking about this interaction for the rest of my life. 
-
+<<next 5s t8n>> Yup, gonna be thinking about this interaction for the rest of my life. 
+<</timed>>
 You lost one confidence point.
 You now have <<print $points>> points!
 
@@ -124,7 +126,7 @@ Yet, the rest of the day you can't help thinking what could have been.
 You lost one confidence point.
 You now have <<print $points>> points!
 
-[[oh well, on to the last half of our day|volunteer]]
+[[oh well, on to the last half of our day|rescue]]
 
 
 :: look
@@ -146,12 +148,20 @@ Oh shit! It's THEM!
 
 "Of course! That would be so nice!"
 
-[[Scoreeeeee!|volunteer]]
+[[Scoreeeeee!|rescue]]
 
 Plus one confidence point!
 You now have <<print $points>> points!
 
-:: volunteer
+:: rescue 
+Finallyyyyyy, the last bell of the school day rings!
+
+Lets get out of here!
+
+The hallway clears out as you rumage through your locker one last time for the day. 
+
+
+
 
 
 :: endgame

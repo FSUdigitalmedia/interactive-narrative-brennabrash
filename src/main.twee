@@ -59,20 +59,20 @@ You can't help but oogle at the @@color:magenta;most gorgeous prom dresses@@ kno
 
 <<next 2s t8n>>Plus, you probably won't be going to prom anyways...
 
-[[You leave the mall empty handed.|home]]
+[[You leave empty handed.|home]]
 
 <</timed>>
 
 :: home
 !Later that night...
-Finished your homework early, as per usual. 
+<<timed 2s t8n>> Finished your homework early, as per usual. 
 
-There's still an extra hour to kill before that //very sensible// 8 pm bedtime. 
+<<next 2s t8n>>There's still an extra hour to kill before that //very sensible// 8 pm bedtime. 
 
-You give into your [[guilty pleasure :)|computer]]
+<<next 2s t8n>> @@color:magenta;You give into your@@ [[guilty pleasure :)|computer]]
+<</timed>>
 
 :: computer
-
 !Google Search History:
 
 <<listbox "$google" autosselect>>
@@ -103,5 +103,5 @@ You give into your [[guilty pleasure :)|computer]]
 <<next 2s t8n>>AH 
 <<next 0.5s t8n>>What is this?
 
-<<next 1s t8n>>NAME OF THE GAME I HAVNT NAMED YET [[game]]
+<<next 1s t8n>> [[Polly's Points: Dress Up Game for Confidence|game]]
 <</timed>>

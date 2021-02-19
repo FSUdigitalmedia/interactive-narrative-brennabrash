@@ -1,9 +1,9 @@
 :: endings
 
 <<if $points lt 4>>
-"Oh no!" You only got <<print $points>> points!? Yeahhhh I don't think thats gonna cut it."
+"Oh no!" You only got <<print $points>> points!? Yeahhhh I don't think that's gonna cut it."
 
-You knew you probably could have done better to stand up for yourself today and step out of your comfort zone, but you just didn't have the guts to do it.
+You knew you could have done better standing up for yourself today and stepping out of your comfort zone. You just didn't have the guts to do it.
 
 "Well, looks like I can't reward you yet! I'll send you another outfit and you'll have to [[try again at school tomorrow|school]]."
 <</if>>
@@ -11,29 +11,31 @@ You knew you probably could have done better to stand up for yourself today and 
 <<if $points gt 3>>
 "YESSSS I know you could do it!!! @@color:magenta;You got all 4 confidence points today!!@@"
 
-"I have to admit, today felt different! At first I thought I would feel uncomfortable but then I felt unstopable!"
+<<timed 3s t8n>> "I have to admit, today felt different! At first I thought I would feel uncomfortable, but then I felt unstopable!"
 
-"Sometimes you just need a @@color:magenta;little push to be bold@@! And since you've tottaly proven yourself today, I got you a gift!"
+<<next 3s t8n>> "Sometimes you just need a @@color:magenta;little push to be bold@@! And since you've totaly proven yourself today, I got you a gift!"
 
-!DING DONG
+<<next 3s t8n>>!DING DONG
 
-Theres another package waiting for you on the pourch...
+<<next 2s t8n>>Theres another package waiting for you on the pourch...
 
-[[open the package|package2]]
+<<next 0.5s t8n>>[[open the package|package2]]
+<</timed>>
 
 :: package2
 
-!GASP
+<<timed 0.5s t8n>>!GASP
 
-DISPLAY CHOSEN DRESS HERE 
+<<next 3s t8n>>DISPLAY CHOSEN DRESS HERE 
 
-"Oh my god!!! Polly how did you know!!"
+<<next 3s t8n>> "Oh my god!!! Polly how did you know!!"
 
-But her unblinking eyes just stared back at you. 
+<<next 3s t8n>> But her unblinking eyes just stared back at you. 
 
-Her job had been done, and you know what you need to do. 
+<<next 3s t8n>> Her job had been done, and you know what you need to do. 
 
-! You're gonna rock this dress at prom and have the best time ever!
+<<next 3s t8n>> ! You're gonna rock this dress at prom and have the best time ever!
 
-@@color:magenta;the end@@
+<<next 3s t8n>> @@color:magenta;the end@@
+<</timed>>
 <</if>>
