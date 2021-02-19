@@ -5,7 +5,7 @@
 <<timed 3s t8n>> You jump a little. 
 Whenever they add voices to the characters it's so creepy.
 
-<<next 3s t8n>> "@@color;magenta;I am here to unlock your inner confience!@@"
+<<next 3s t8n>> "@@color:magenta;I am here to unlock your inner confience!@@"
  
 <<next 3s t8n>> She sounds super cheesy, but you begin clicking around anyways.
 
@@ -32,13 +32,14 @@ did the game… just hear me??
 :: head
 Pick a head piece!
 
-[img[../assets/head1-01.png][top]] [img[../assets/head2-01.png][top]] [img[../assets/head3-01.png][top]] [img[../assets/head4-01.png][top]] [img[../assets/head5-01.png][top]]
+<<link [img[../assets/head1-01.png][top]]>>
+<<set $chosenhat to [img[../assets/head1-01.png]]>> <</link>>
+[img[../assets/head2-01.png][top]] [img[../assets/head3-01.png][top]] [img[../assets/head4-01.png][top]] [img[../assets/head5-01.png][top]]
 [img[../assets/head6-01.png][top]] [img[../assets/head7-01.png][top]] [img[../assets/head8-01.png][top]] [img[../assets/head9-01.png][top]] [img[../assets/head10-01.png][top]]
 
 :: top
 Pick a top!
 
-<<set $chosenhat "../assets/top1-01.png">>
 
 [img[../assets/top1-01.png][bottom]] [img[../assets/top2-01.png][bottom]] [img[../assets/top3.png][bottom]] [img[../assets/top4-01.png][bottom]] [img[../assets/top5-01.png][bottom]]
 [img[../assets/top6-01.png][bottom]] [img[../assets/top7-01.png][bottom]] [img[../assets/top8-01.png][bottom]] [img[../assets/top9-01.png][bottom]] [img[../assets/top10-01.png][bottom]] 
@@ -57,7 +58,7 @@ Pick some kicks!
 
 
 :: finish
-<<display $chosenhat>>
+<<print $chosenhat>> <</print>>
 
 "Oh you were right Polly, I think look is much cutier!"
 
@@ -103,8 +104,14 @@ scrolling, scrolling scrolling...
 
 "Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it?? "
 
-"It was an interesting day for sure... but 
+"It was an interesting day for sure... but what is going on!! How do know know my adress, my size, 
 
-""
+"Chill out!! Not everyone on the internet has access to this game! I only show up for the people who really need me."
 
-[Lets see how many points you earnerd!]
+"Need you...?"  the more she talks the more confused you feel.
+
+"Yeah, you tottally needed a push in the right direction, dont even deny it!"
+
+You do have to admit, you would have never done anything like this on your own...
+
+"Now! [[Lets see how many confidence points you earnerd today!|endings]]

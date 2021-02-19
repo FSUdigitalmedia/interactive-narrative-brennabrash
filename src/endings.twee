@@ -1,9 +1,39 @@
 :: endings
 
 <<if $points lt 4>>
-TRY AGAIN
-<<if>>
+"Oh no!" You only got <<print $points>> points!? Yeahhhh I don't think thats gonna cut it."
+
+You knew you probably could have done better to stand up for yourself today and step out of your comfort zone, but you just didn't have the guts to do it.
+
+"Well, looks like I can't reward you yet! I'll send you another outfit and you'll have to [[try again at school tomorrow|school]]."
+<</if>>
 
 <<if $points gt 3>>
-YOU win
+"YESSSS I know you could do it!!! @@color:magenta;You got all 4 confidence points today!!@@"
+
+"I have to admit, today felt different! At first I thought I would feel uncomfortable but then I felt unstopable!"
+
+"Sometimes you just need a @@color:magenta;little push to be bold@@! And since you've tottaly proven yourself today, I got you a gift!"
+
+!DING DONG
+
+Theres another package waiting for you on the pourch...
+
+[[open the package|package2]]
+
+:: package2
+
+!GASP
+
+DISPLAY CHOSEN DRESS HERE 
+
+"Oh my god!!! Polly how did you know!!"
+
+But her unblinking eyes just stared back at you. 
+
+Her job had been done, and you know what you need to do. 
+
+! You're gonna rock this dress at prom and have the best time ever!
+
+@@color:magenta;the end@@
 <</if>>

@@ -11,6 +11,10 @@ Prom Season
 
 :: StoryInit
 <<set $points to 0>>
+<<set $chosenhat to []>>
+<<set $chosentop to []>>
+<<set $chosenbottom to []>>
+<<set $chosenshoe to []>>
 
 
 
@@ -28,7 +32,7 @@ h1 {
 } 
 
 :: Start
-<<timed 1s t8n>> //Gaspppppp!!//
+<<timed 1s t8n>> //Gaspppppp!!// 
 
 <<next 3s t8n>> Your face hovers inches away from the glass of the shop window.
 You can't help but oogle at the @@color:magenta;most gorgeous prom dresses@@ known to humanity.
@@ -65,7 +69,7 @@ Finished your homework early, as per usual.
 
 There's still an extra hour to kill before that //very sensible// 8 pm bedtime. 
 
-You give into your [[guilty pleasur :)|computer]]
+You give into your [[guilty pleasure :)|computer]]
 
 :: computer
 
