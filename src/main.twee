@@ -11,10 +11,14 @@ Prom Season
 
 :: StoryInit
 <<set $points to 0>>
-<<set $chosenhat to []>>
-<<set $chosentop to []>>
-<<set $chosenbottom to []>>
-<<set $chosenshoe to []>>
+<<set $hatchoices to ['head1-01','head2-01','head3-01','head4-01','head5-01','head6-01','head7-01','head8-01','head9-01','head10-01']>>
+<<set $hat to []>>
+<<set $topchoices to ['top1-01','top2-01','top3','top4-01','top5-01','top5-01','top6-01','top7-01','top8-01','top9-01','top10-01']>>
+<<set $top to []>>
+<<set $bottomchoices to ['bottom1','bottom2-01','bottom3-01','bottom4-01','bottom5-01','bottom6-01','bottom7-01','bottom8-01','bottom9-01','bottom10-01']>>
+<<set $bottom to []>>
+<<set $shoechoices to ['shoe1','shoe2-01','shoe3-01','shoe4','shoe5-01','shoe6-01','shoes7-01','shoe8-01','shoe9-01','shoe10-01']>>
+<<set $shoe to []>>
 <<set $promchoices to ['prom1','prom2','prom3','prom4','prom5','prom6']>>
 <<set $prom to ''>>
 
@@ -54,8 +58,8 @@ You can't help but oogle at the @@color:magenta;most gorgeous prom dresses@@ kno
 :: dress
 
 lets test this...
-You selected prom dress ''<<print $promchoice + 1>>''
-[img["../assets/" + $promchoice[$prom] + ".png"]]
+You selected prom dress ''<<print $prom + 1>>''
+[img["../assets/" + $promchoices[$prom] + ".png"]]
 
 !Sigh... so gorgerous! 
 <<timed 2s t8n>> "I wish it was possible for me to pull off something so flashy."

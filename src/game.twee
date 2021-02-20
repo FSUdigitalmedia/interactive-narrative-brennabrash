@@ -37,39 +37,54 @@ did the game… just hear me??
 Pick a head piece!
 
 <<nobr>>
-<<for _i to 0; _i lt $chosenhat.length; _i++>>
-<<capture _i>>
-[img["../assets" + $chosenhat[_i] + ".png"][]
-[img[../assets/head2-01.png][top]] [img[../assets/head3-01.png][top]] [img[../assets/head4-01.png][top]] [img[../assets/head5-01.png][top]]
-[img[../assets/head6-01.png][top]] [img[../assets/head7-01.png][top]] [img[../assets/head8-01.png][top]] [img[../assets/head9-01.png][top]] [img[../assets/head10-01.png][top]]
-<</capture>>
+<<for _i to 0; _i lt $hatchoices.length; _i++>>
+  <<capture _i>>
+[img["../assets/" + $hatchoices[_i] + ".png"][top][$hat to _i]]
+ <</capture>>
 <</for>>
 <</nobr>>
 
 :: top
 Pick a top!
 
-
-[img[../assets/top1-01.png][bottom]] [img[../assets/top2-01.png][bottom]] [img[../assets/top3.png][bottom]] [img[../assets/top4-01.png][bottom]] [img[../assets/top5-01.png][bottom]]
-[img[../assets/top6-01.png][bottom]] [img[../assets/top7-01.png][bottom]] [img[../assets/top8-01.png][bottom]] [img[../assets/top9-01.png][bottom]] [img[../assets/top10-01.png][bottom]] 
+<<nobr>>
+<<for _i to 0; _i lt $topchoices.length; _i++>>
+  <<capture _i>>
+[img["../assets/" + $topchoices[_i] + ".png"][bottom][$top to _i]]
+ <</capture>>
+<</for>>
+<</nobr>>
 
 :: bottom
 Pick some bottoms!
 
-[img[../assets/bottom1.png][shoe]] [img[../assets/bottom2-01.png][shoe]] [img[../assets/bottom3-01.png][shoe]] [img[../assets/bottom4-01.png][shoe]] [img[../assets/bottom5-01.png][shoe]]
-[img[../assets/bottom6-01.png][shoe]] [img[../assets/bottom7-01.png][shoe]] [img[../assets/bottom8-01.png][shoe]] [img[../assets/bottom9-01.png][shoe]] [img[../assets/bottom10-01.png][shoe]]
+<<nobr>>
+<<for _i to 0; _i lt $bottomchoices.length; _i++>>
+  <<capture _i>>
+[img["../assets/" + $bottomchoices[_i] + ".png"][shoe][$bottom to _i]]
+ <</capture>>
+<</for>>
+<</nobr>>
 
 :: shoe
 Pick some kicks!
 
-[img[../assets/shoe1.png][finish]] [img[../assets/shoe2-01.png][finish]] [img[../assets/shoe3-01.png][finish]] [img[../assets/shoe4.png][finish]] [img[../assets/shoe5-01.png][finish]]
-[img[../assets/shoe6-01.png][finish]] [img[../assets/shoes7-01.png][finish]] [img[../assets/shoe8-01.png][finish]] [img[../assets/shoe9-01.png][finish]] [img[../assets/shoe10-01.png][finish]]
+<<nobr>>
+<<for _i to 0; _i lt $shoechoices.length; _i++>>
+  <<capture _i>>
+[img["../assets/" + $shoechoices[_i] + ".png"][finish][$shoe to _i]]
+ <</capture>>
+<</for>>
+<</nobr>>
 
 
 :: finish
-<<print $chosenhat>> <</print>>
 
-DISPLAY CHOSEN ITEMS HERE
+[img["../assets/" + $hatchoices[$hat] + ".png"]]
+[img["../assets/" + $topchoices[$top] + ".png"]]
+[img["../assets/" + $bottomchoices[$bottom] + ".png"]]
+[img["../assets/" + $shoechoices[$shoe] + ".png"]]
+
 
 "Oh you were right Polly, I think look is much cutier!"
 

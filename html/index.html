@@ -197,26 +197,40 @@ did the game… just hear me??
 &lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="head" tags="" position="725,100" size="100,100">Pick a head piece!
 
 &lt;&lt;nobr&gt;&gt;
-&lt;&lt;for _i to 0; _i lt $chosenhat.length; _i++&gt;&gt;
-&lt;&lt;capture _i&gt;&gt;
-[img[&quot;../assets&quot; + $chosenhat[_i] + &quot;.png&quot;][]
-[img[../assets/head2-01.png][top]] [img[../assets/head3-01.png][top]] [img[../assets/head4-01.png][top]] [img[../assets/head5-01.png][top]]
-[img[../assets/head6-01.png][top]] [img[../assets/head7-01.png][top]] [img[../assets/head8-01.png][top]] [img[../assets/head9-01.png][top]] [img[../assets/head10-01.png][top]]
-&lt;&lt;/capture&gt;&gt;
+&lt;&lt;for _i to 0; _i lt $hatchoices.length; _i++&gt;&gt;
+  &lt;&lt;capture _i&gt;&gt;
+[img[&quot;../assets/&quot; + $hatchoices[_i] + &quot;.png&quot;][top][$hat to _i]]
+ &lt;&lt;/capture&gt;&gt;
 &lt;&lt;/for&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="top" tags="" position="850,100" size="100,100">Pick a top!
 
+&lt;&lt;nobr&gt;&gt;
+&lt;&lt;for _i to 0; _i lt $topchoices.length; _i++&gt;&gt;
+  &lt;&lt;capture _i&gt;&gt;
+[img[&quot;../assets/&quot; + $topchoices[_i] + &quot;.png&quot;][bottom][$top to _i]]
+ &lt;&lt;/capture&gt;&gt;
+&lt;&lt;/for&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="bottom" tags="" position="975,100" size="100,100">Pick some bottoms!
 
-[img[../assets/top1-01.png][bottom]] [img[../assets/top2-01.png][bottom]] [img[../assets/top3.png][bottom]] [img[../assets/top4-01.png][bottom]] [img[../assets/top5-01.png][bottom]]
-[img[../assets/top6-01.png][bottom]] [img[../assets/top7-01.png][bottom]] [img[../assets/top8-01.png][bottom]] [img[../assets/top9-01.png][bottom]] [img[../assets/top10-01.png][bottom]]</tw-passagedata><tw-passagedata pid="8" name="bottom" tags="" position="975,100" size="100,100">Pick some bottoms!
+&lt;&lt;nobr&gt;&gt;
+&lt;&lt;for _i to 0; _i lt $bottomchoices.length; _i++&gt;&gt;
+  &lt;&lt;capture _i&gt;&gt;
+[img[&quot;../assets/&quot; + $bottomchoices[_i] + &quot;.png&quot;][shoe][$bottom to _i]]
+ &lt;&lt;/capture&gt;&gt;
+&lt;&lt;/for&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="shoe" tags="" position="1100,100" size="100,100">Pick some kicks!
 
-[img[../assets/bottom1.png][shoe]] [img[../assets/bottom2-01.png][shoe]] [img[../assets/bottom3-01.png][shoe]] [img[../assets/bottom4-01.png][shoe]] [img[../assets/bottom5-01.png][shoe]]
-[img[../assets/bottom6-01.png][shoe]] [img[../assets/bottom7-01.png][shoe]] [img[../assets/bottom8-01.png][shoe]] [img[../assets/bottom9-01.png][shoe]] [img[../assets/bottom10-01.png][shoe]]</tw-passagedata><tw-passagedata pid="9" name="shoe" tags="" position="1100,100" size="100,100">Pick some kicks!
+&lt;&lt;nobr&gt;&gt;
+&lt;&lt;for _i to 0; _i lt $shoechoices.length; _i++&gt;&gt;
+  &lt;&lt;capture _i&gt;&gt;
+[img[&quot;../assets/&quot; + $shoechoices[_i] + &quot;.png&quot;][finish][$shoe to _i]]
+ &lt;&lt;/capture&gt;&gt;
+&lt;&lt;/for&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="finish" tags="" position="1225,100" size="100,100">[img[&quot;../assets/&quot; + $hatchoices[$hat] + &quot;.png&quot;]]
+[img[&quot;../assets/&quot; + $topchoices[$top] + &quot;.png&quot;]]
+[img[&quot;../assets/&quot; + $bottomchoices[$bottom] + &quot;.png&quot;]]
+[img[&quot;../assets/&quot; + $shoechoices[$shoe] + &quot;.png&quot;]]
 
-[img[../assets/shoe1.png][finish]] [img[../assets/shoe2-01.png][finish]] [img[../assets/shoe3-01.png][finish]] [img[../assets/shoe4.png][finish]] [img[../assets/shoe5-01.png][finish]]
-[img[../assets/shoe6-01.png][finish]] [img[../assets/shoes7-01.png][finish]] [img[../assets/shoe8-01.png][finish]] [img[../assets/shoe9-01.png][finish]] [img[../assets/shoe10-01.png][finish]]</tw-passagedata><tw-passagedata pid="10" name="finish" tags="" position="1225,100" size="100,100">&lt;&lt;print $chosenhat&gt;&gt; &lt;&lt;/print&gt;&gt;
-
-DISPLAY CHOSEN ITEMS HERE
 
 &quot;Oh you were right Polly, I think look is much cutier!&quot;
 
@@ -229,7 +243,28 @@ DISPLAY CHOSEN ITEMS HERE
 &lt;&lt;next 3s t8n&gt;&gt; Her unblinking eyes stare back at you.
 
 &lt;&lt;next 0.5s t8n&gt;&gt;[[Time for bed!|morning]]
-&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="endgame" tags="" position="100,225" size="100,100"></tw-passagedata><tw-passagedata pid="12" name="search2" tags="" position="225,225" size="100,100">scrolling, scrolling scrolling... 
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="endgame" tags="" position="100,225" size="100,100">!&quot;UGH! I&#39;m beat!&quot;
+
+&lt;&lt;timed 3s t8n&gt;&gt; You collapse on the bed. What a wirl wind of a day! There were so many ups and downs, you barely know how to feel about it!
+
+&lt;&lt;next 3s t8n&gt;&gt;You sink deeper into the bed. But just when you think you might endugle in an after school nap, you see your laptop out of the corner of your eye.
+
+&lt;&lt;next 3s t8n&gt;&gt; !&quot;OH shit!&quot;
+ all of a sudden, you aren&#39;t so sleepy anymore.
+
+&lt;&lt;next 3s t8n&gt;&gt;You were so caught up in what people thought about your outfit that you almost forgot where it came from!!
+
+&lt;&lt;next 3s t8n&gt;&gt;&quot;I have to updated Polly!&quot;
+You leap up, grab your laptop, and search that familiar google search.
+
+&lt;&lt;timed 3s t8n&gt;&gt;!Google Search History:
+
+&lt;&lt;listbox &quot;$google&quot; autosselect&gt;&gt;
+&lt;&lt;option &quot;DRESS UP GAMES&quot;&gt;&gt; 
+&lt;&lt;/listbox&gt;&gt;
+&lt;&lt;/timed&gt;&gt;
+
+[[search2]]</tw-passagedata><tw-passagedata pid="12" name="search2" tags="" position="225,225" size="100,100">scrolling, scrolling scrolling... 
 &lt;&lt;timed 3s t8n&gt;&gt;AH found it!
 
 &lt;&lt;next 3s t8n&gt;&gt; &quot;Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it?? &quot;
@@ -246,10 +281,14 @@ DISPLAY CHOSEN ITEMS HERE
 
 &quot;Now! [[Lets see how many confidence points you earnerd today!|endings]]&quot;
 &lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="StoryInit" tags="" position="350,225" size="100,100">&lt;&lt;set $points to 0&gt;&gt;
-&lt;&lt;set $chosenhat to []&gt;&gt;
-&lt;&lt;set $chosentop to []&gt;&gt;
-&lt;&lt;set $chosenbottom to []&gt;&gt;
-&lt;&lt;set $chosenshoe to []&gt;&gt;
+&lt;&lt;set $hatchoices to [&#39;head1-01&#39;,&#39;head2-01&#39;,&#39;head3-01&#39;,&#39;head4-01&#39;,&#39;head5-01&#39;,&#39;head6-01&#39;,&#39;head7-01&#39;,&#39;head8-01&#39;,&#39;head9-01&#39;,&#39;head10-01&#39;]&gt;&gt;
+&lt;&lt;set $hat to []&gt;&gt;
+&lt;&lt;set $topchoices to [&#39;top1-01&#39;,&#39;top2-01&#39;,&#39;top3&#39;,&#39;top4-01&#39;,&#39;top5-01&#39;,&#39;top5-01&#39;,&#39;top6-01&#39;,&#39;top7-01&#39;,&#39;top8-01&#39;,&#39;top9-01&#39;,&#39;top10-01&#39;]&gt;&gt;
+&lt;&lt;set $top to []&gt;&gt;
+&lt;&lt;set $bottomchoices to [&#39;bottom1&#39;,&#39;bottom2-01&#39;,&#39;bottom3-01&#39;,&#39;bottom4-01&#39;,&#39;bottom5-01&#39;,&#39;bottom6-01&#39;,&#39;bottom7-01&#39;,&#39;bottom8-01&#39;,&#39;bottom9-01&#39;,&#39;bottom10-01&#39;]&gt;&gt;
+&lt;&lt;set $bottom to []&gt;&gt;
+&lt;&lt;set $shoechoices to [&#39;shoe1&#39;,&#39;shoe2-01&#39;,&#39;shoe3-01&#39;,&#39;shoe4&#39;,&#39;shoe5-01&#39;,&#39;shoe6-01&#39;,&#39;shoes7-01&#39;,&#39;shoe8-01&#39;,&#39;shoe9-01&#39;,&#39;shoe10-01&#39;]&gt;&gt;
+&lt;&lt;set $shoe to []&gt;&gt;
 &lt;&lt;set $promchoices to [&#39;prom1&#39;,&#39;prom2&#39;,&#39;prom3&#39;,&#39;prom4&#39;,&#39;prom5&#39;,&#39;prom6&#39;]&gt;&gt;
 &lt;&lt;set $prom to &#39;&#39;&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="Start" tags="" position="475,225" size="100,100">&lt;&lt;timed 1s t8n&gt;&gt; //Gaspppppp!!// 
 
@@ -266,8 +305,8 @@ You can&#39;t help but oogle at the @@color:magenta;most gorgeous prom dresses@@
  &lt;&lt;/capture&gt;&gt;
 &lt;&lt;/for&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="dress" tags="" position="600,225" size="100,100">lets test this...
-You selected prom dress &#39;&#39;&lt;&lt;print $promchoice + 1&gt;&gt;&#39;&#39;
-[img[&quot;../assets/&quot; + $promchoice[$prom] + &quot;.png&quot;]]
+You selected prom dress &#39;&#39;&lt;&lt;print $prom + 1&gt;&gt;&#39;&#39;
+[img[&quot;../assets/&quot; + $promchoices[$prom] + &quot;.png&quot;]]
 
 !Sigh... so gorgerous! 
 &lt;&lt;timed 2s t8n&gt;&gt; &quot;I wish it was possible for me to pull off something so flashy.&quot;
