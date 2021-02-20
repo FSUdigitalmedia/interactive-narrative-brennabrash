@@ -15,6 +15,8 @@ Prom Season
 <<set $chosentop to []>>
 <<set $chosenbottom to []>>
 <<set $chosenshoe to []>>
+<<set $promchoices to ['prom1','prom2','prom3','prom4','prom5','prom6']>>
+<<set $prom to ''>>
 
 
 
@@ -38,12 +40,23 @@ h1 {
 You can't help but oogle at the @@color:magenta;most gorgeous prom dresses@@ known to humanity.
 
 <<next 5s t8n>> Theyre all so stunning! But you esspecially can't take your eyes off of...
+ <</timed>>
 
-<<next 2s t8n>> [img[../assets/prom4.png][dress]] [img[../assets/prom2.png][dress]][img[../assets/prom3.png][dress]]
-<<next 1s t8n>> [img[../assets/prom1.png][dress]][img[../assets/prom5.png][dress]][img[../assets/prom6.png][dress]]
-<</timed>>
+<<nobr>>
+<<for _i to 0; _i lt $promchoices.length; _i++>>
+  <<capture _i>>
+[img["../assets/" + $promchoices[_i] + ".png"][dress][$prom to _i]]
+ <</capture>>
+<</for>>
+<</nobr>>
+
 
 :: dress
+
+lets test this...
+You selected prom dress ''<<print $promchoice + 1>>''
+[img["../assets/" + $promchoice[$prom] + ".png"]]
+
 !Sigh... so gorgerous! 
 <<timed 2s t8n>> "I wish it was possible for me to pull off something so flashy."
 

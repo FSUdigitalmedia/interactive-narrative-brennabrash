@@ -36,10 +36,15 @@ did the game… just hear me??
 :: head
 Pick a head piece!
 
-<<link [img[../assets/head1-01.png][top]]>>
-<<set $chosenhat to [img[../assets/head1-01.png]]>> <</link>>
+<<nobr>>
+<<for _i to 0; _i lt $chosenhat.length; _i++>>
+<<capture _i>>
+[img["../assets" + $chosenhat[_i] + ".png"][]
 [img[../assets/head2-01.png][top]] [img[../assets/head3-01.png][top]] [img[../assets/head4-01.png][top]] [img[../assets/head5-01.png][top]]
 [img[../assets/head6-01.png][top]] [img[../assets/head7-01.png][top]] [img[../assets/head8-01.png][top]] [img[../assets/head9-01.png][top]] [img[../assets/head10-01.png][top]]
+<</capture>>
+<</for>>
+<</nobr>>
 
 :: top
 Pick a top!
