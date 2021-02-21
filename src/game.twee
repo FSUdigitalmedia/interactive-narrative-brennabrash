@@ -1,32 +1,32 @@
 :: game
-"Hi! My name is @@color:magenta;Polly@@, nice to meet you!"
+[img[../assets/polly.png]] "Hi! My name is @@color:magenta;Polly@@, nice to meet you!"
 
 <<timed 3s t8n>> You jump a little. 
 Whenever they add voices to the characters it's so creepy.
 
-<<next 3s t8n>> "@@color:magenta;I am here to unlock your inner confience!@@"
+<<next 3s t8n>> [img[../assets/polly.png]] "@@color:magenta;I am here to unlock your inner confience!@@"
  
 <<next 3s t8n>> She sounds super cheesy, but you begin [[clicking around anyways|clicking]].
 <</timed>>
 
 :: clicking 
 hmmmmmm....
-<<timed 3s t8n>> maybe this button up would be cute on her... 
+<<timed 3s t8n>> maybe this button up would be cute... 
 
 <<next 3s t8n>> maybe this headband...
 
-<<next 6s t8n>> "Hellooooooo I dont have all day!!! And this headband you chose, @@color:magenta;common girl you can do better than that!!@@"
+<<next 6s t8n>> [img[../assets/polly.png]]"Hellooooooo I dont have all day!!! And this headband you chose, @@color:magenta;common girl you can do better than that!!@@"
 
 <<next 3s t8n>>Huh?? 
 You’ve never had a game talk back to you before. 
 "Uhhhh isn’t the whole point that I get to choose?"
 
-<<next 3s t8n>>"Wrong!! It's my outfit, I'm allowed to give you input!""
+<<next 3s t8n>>[img[../assets/polly.png]]"Wrong!! It's my outfit, I'm allowed to give you input!""
 
 <<next 3s t8n>>!WHOA
 did the game… just hear me??
  
-<<next 3s t8n>> "Common, the things your picking is such a snooze-fest. You knowwwww you want something more fun! Pick the @@color:magenta;outfit of your wildest dreams@@!"
+<<next 3s t8n>> [img[../assets/polly.png]]"Common, the things your picking is such a snooze-fest. You knowwwww you want something more fun! Pick the @@color:magenta;outfit of your wildest dreams@@!"
 
 <<next 3s t8n>>"Uhhhh…. Ok."
 
@@ -88,13 +88,13 @@ Pick some kicks!
 
 "Oh you were right Polly, I think look is much cutier!"
 
-<<timed 3s t8n>> "See, sometimes you gotta say @@color:magenta;fuck it and wear what you wanna wear!@@"
+<<timed 3s t8n>> [img[../assets/polly.png]]"See, sometimes you gotta say @@color:magenta;fuck it and wear what you wanna wear!@@"
 
 <<next 3s t8n>> ...Are they allowed to put F bombs in a game like this, isn’t it for kids?
 
 <<next 3s t8n>> "Ugh you're right. I never push myself @@color:magenta;outside my comfort zone@@. I wish I could pull off an outfit like you."
 
-<<next 3s t8n>> Her unblinking eyes stare back at you.
+<<next 3s t8n>> [img[../assets/polly.png]]Her unblinking eyes stare back at you.
 
 <<next 0.5s t8n>>[[Time for bed!|morning]]
 <</timed>>
@@ -106,39 +106,34 @@ Pick some kicks!
 
 <<next 3s t8n>>You sink deeper into the bed. But just when you think you might endugle in an after school nap, you see your laptop out of the corner of your eye.
 
-<<next 3s t8n>> !"OH shit!"
- all of a sudden, you aren't so sleepy anymore.
+<<next 3s t8n>> "OH shit!", all of a sudden, you aren't so sleepy anymore.
 
 <<next 3s t8n>>You were so caught up in what people thought about your outfit that you almost forgot where it came from!!
 
 <<next 3s t8n>>"I have to updated Polly!"
 You leap up, grab your laptop, and search that familiar google search.
+<</timed>>
 
-<<timed 3s t8n>>!Google Search History:
+<<timed 18s t8n>>!Google Search History:
 
 <<listbox "$google" autosselect>>
 <<option "DRESS UP GAMES">> 
 <</listbox>>
+<<next 0.5s t8n>>[[search|search2]]
 <</timed>>
 
-[[search2]]
-
 :: search2
-
-scrolling, scrolling scrolling... 
-<<timed 3s t8n>>AH found it!
-
-<<next 3s t8n>> "Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it?? "
+<<timed 3s t8n>> [img[../assets/polly.png]] "Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it??"
 
 <<next 3s t8n>> "It was an interesting day for sure... but what is going on!! How did you know my adress? Or my size??"
 
-<<next 3s t8n>> "Chill out!! Not everyone on the internet has access to this game! I only show up for the people who really need me."
+<<next 3s t8n>> [img[../assets/polly.png]] "Chill out!! Not everyone on the internet has access to this game! I only show up for the people who really need me."
 
 <<next 3s t8n>> "Need you...?"  the more she talks the more confused you feel.
 
-<<next 3s t8n>> "Yeah, you tottally needed @@color:magenta;a push in the right direction@@, dont even deny it!"
+<<next 3s t8n>> [img[../assets/polly.png]] "Yeah, you tottally needed @@color:magenta;a push in the right direction@@, dont even deny it!"
 
 <<next 3s t8n>> "You do have to admit, you would have never done anything like this on your own...
 
-"Now! [[Lets see how many confidence points you earnerd today!|endings]]"
+<<next 3s t8n>>[img[../assets/polly.png]] "Now! [[Lets see how many confidence points you earnerd today!|endings]]"
 <</timed>>

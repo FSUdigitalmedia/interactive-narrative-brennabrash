@@ -17,10 +17,10 @@ You start that familiar school day all over again...
 Ahhh thank you, aren't the shoes adorable! But you wont believe how I got them...
 
 <<timed 2s t8n>>Before you can reaccount the bizzar events of this morning, the first period bell rings and [[everyone scatters|class]].
-<</timed>>
 
-!You gained one confidence point!
+<<next 0.5s t8n>>@@color:magenta;You gained one confidence point!@@
 You now have <<print $points>> points!
+<</timed>>
  
 :: shy
 <<set $points -= 1>>
@@ -31,14 +31,14 @@ You now have <<print $points>> points!
 <<next 2s t8n>> "Maybe I should change into that extra outfit I keep in here..."
 
 <<next 2s t8n>> But before you can get it open, the first period bell rings and [[everyone scatters|class]]. 
+
+<<next 0.5s t8n>> @@color:magenta;You lost one confidence point.@@
+You now have <<print $points>> points.
 <</timed>>
 
-!You lost one confidence point.
-You now have <<print $points>> points.
-
-
 :: class
-As your day goes on, you start to calm down a bit. 
+As your day goes on, you start to calm down a bit.
+
 <<timed 2s t8n>> In fact, dressing up for school kinda makes things more fun! You even got a few compliments!
 
 <<next 2s t8n>> Walking into fourth period, you feel like this might be shaping up to be a pretty good day!
@@ -49,9 +49,8 @@ As your day goes on, you start to calm down a bit.
 :: until
 !"Hey you!"
 
-<<timed 2s t8n>> Looking up from your usual seat in the back of the room, there's a guy staring straight at you.
-<<next 2s t8n>> He's pretty popular and is alwayyssss talking. 
-He's kind of obnoxious actually, you've had a lot of the same classes as him since starting high school.
+<<timed 2s t8n>> There's a guy staring straight at you.
+<<next 2s t8n>> He's pretty popular and is alwayyssss talking, you've had a lot of classes with him.
 <<next 2s t8n>> Despite his loudness, you guys did a project together last year and he wasn't toooo bad. 
 
 <<next 2s t8n>> "Uhhhh, whats up?"
@@ -61,7 +60,7 @@ He's kind of obnoxious actually, you've had a lot of the same classes as him sin
 <<next 2s t8n>> Wha..... what!!?? NEVER SEEN ME BEFORE!!?? 
 I knew I didn't exactly stand out all the time, but this guys should DEFINETLY KNOW ME.
 
-<<next 2s t8n>> "Ummmm, no I have this class with you every day. And... we also have english together."
+<<next 2s t8n>> "Ummmm, no I have this class with you every day."
 
 <<next 2s t8n>>"Ohhhh my bad my bad. I guess I just never noticed you before.
 Must be that weird fuckn' outfit, you trying to get my attention or something?"
@@ -75,27 +74,28 @@ Must be that weird fuckn' outfit, you trying to get my attention or something?"
 "Uhhh, @@color:magenta;are you kidding me@@!!?? We literally did that huge group project together last year!
 And absolutely no one is dressing up for your dumb ass! Don't speak like that to people like they don't matter, its rude!"
 
-<<timed 5s t8n>> He immediatly goes red. "I... you're right. I'm sorry..."
+<<timed 3s t8n>> He immediatly goes red. "I... you're right. I'm sorry..."
 
-<<next 2s t8n>>Well, that was awkward. But at least you stood up for yourself and you wont lie awake at night thinking about how to tell that asshole off.
+<<next 3s t8n>>Well, that was awkward. But at least you stood up for yourself and you wont lie awake at night thinking about how to tell that asshole off.
 
-<<next 0.5s t8n>>[[whatever, its almost lunch time now.|lunch]]
-<</timed>>
+<<next 3s t8n>>[[whatever, its almost lunch time now.|lunch]]
 
-You gained one confidence point!
+<<next 0.5s t8n>>@@color:magenta;You gained one confidence point!@@
 You now have <<print $points>> points!
+<</timed>>
 
 :: ignore
 <<set $points -= 1>>
 You stare at each other for another second before he just shrugs and goes back to gabbing with his friends. 
 
-<<timed 5s t8n>> What an asshole... do people not even know I exist!! 
-<<next 5s t8n>> Yup, gonna be thinking about this interaction for the rest of my life. 
-<</timed>>
-You lost one confidence point.
-You now have <<print $points>> points!
+<<timed 2s t8n>> What an asshole... do people not even know I exist!! 
+<<next 2s t8n>> Yup, gonna be thinking about this interaction for the rest of my life. 
 
-[[whatever, its almost lunch time now.|lunch]]
+<<next 2s t8n>>[[whatever, its almost lunch time now.|lunch]]
+
+<<next 0.5s t8n>>@@color:magenta;You lost one confidence point.@@
+You now have <<print $points>> points!
+<</timed>>
 
 
 :: lunch
@@ -109,7 +109,7 @@ It's that time of day.
 <<next 3s t8n>> Dispite your burning crush, you only ever sneeked looks at them during lunch and prayed they would make the first move.
 <<next 3s t8n>> Looking at them now from across the cafetria you can't help but inwardly gush about the way their hair does that thing and ...
 
-<<next 8s t8n>>!OH SHIT!! THE TOTALLY JUST CAUGHT US LOOKING!
+<<next 6s t8n>>!OH SHIT!! THE TOTALLY JUST CAUGHT US LOOKING!
 
 <<next 0.5s t8n>>[[We can't let them know we were staring!!|lookaway]]
 [[Hold their gaze|look]]
@@ -119,14 +119,15 @@ It's that time of day.
 <<set $points -= 1>>
 Nope! nope nope nope nope.
 
-We don't want them to think we're creepy, or worse, IN LOVE WITH THEM.
+<<timed 2s t8n>>We don't want them to think we're creepy, or worse, @@color:magenta;IN LOVE WITH THEM@@!
 
-Yet, the rest of the day you can't help thinking what could have been. 
+<<next 2s t8n>>Yet, the rest of the day you can't help thinking what could have been. 
 
-You lost one confidence point.
+<<next 2s t8n>>[[oh well, the day is almost over now...|endgame]]
+
+<<next 0.5s t8n>>@@color:magenta;You lost one confidence point.@@
 You now have <<print $points>> points!
-
-[[oh well, on to the last half of our day|rescue]]
+<</timed>>
 
 
 :: look
@@ -138,27 +139,22 @@ You tell the butterflies in your stomach to shut up a second.
 
 <<next 2s t8n>>@@color:magenta;Ok the butterflies are for sure going crazy now@@, you cant get them to shut up for the rest of lunch.
 
-On your way out the cafiteria, you get [[a tap on the shoulder|shoulder]]
+<<next 2s t8n>>On your way out the cafiteria, you get [[a tap on the shoulder|shoulder]]
+<</timed>>
 
 :: shoulder
 <<set $points += 1>>
-Oh shit! It's THEM!
+! Oh shit! It's THEM!
 
-"Hey, I couldn't help but notice we always walk to the same hallway every day after lunch. Mind if I start walking with you?"
+<<timed 2s t8n>>"Hey, I couldn't help but notice we always walk to the same hallway every day after lunch. Mind if I start walking with you?"
 
-"Of course! That would be so nice!"
+<<next 2s t8n>>"Of course! That would be so nice!"
 
-[[Scoreeeeee!|rescue]]
+<<next 2s t8n>>[[Scoreeeeee!|endgame]]
 
-Plus one confidence point!
+<<next 0.5s t8n>>@@color:magenta;Plus one confidence point!@@
 You now have <<print $points>> points!
-
-:: rescue 
-Finallyyyyyy, the last bell of the school day rings!
-
-Lets get out of here!
-
-The hallway clears out as you rumage through your locker one last time for the day. 
+<</timed>>
 
 
 

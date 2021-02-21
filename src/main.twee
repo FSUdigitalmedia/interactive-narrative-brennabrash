@@ -7,13 +7,13 @@
 
 
 :: StoryTitle
-Prom Season
+Polly's Points
 
 :: StoryInit
 <<set $points to 0>>
 <<set $hatchoices to ['head1-01','head2-01','head3-01','head4-01','head5-01','head6-01','head7-01','head8-01','head9-01','head10-01']>>
 <<set $hat to []>>
-<<set $topchoices to ['top1-01','top2-01','top3','top4-01','top5-01','top5-01','top6-01','top7-01','top8-01','top9-01','top10-01']>>
+<<set $topchoices to ['top1-01','top2-01','top3','top4-01','top5-01','top6-01','top7-01','top8-01','top9-01','top10-01']>>
 <<set $top to []>>
 <<set $bottomchoices to ['bottom1','bottom2-01','bottom3-01','bottom4-01','bottom5-01','bottom6-01','bottom7-01','bottom8-01','bottom9-01','bottom10-01']>>
 <<set $bottom to []>>
@@ -44,8 +44,8 @@ h1 {
 You can't help but oogle at the @@color:magenta;most gorgeous prom dresses@@ known to humanity.
 
 <<next 5s t8n>> Theyre all so stunning! But you esspecially can't take your eyes off of...
- <</timed>>
 
+<<next 0.5s t8n>>
 <<nobr>>
 <<for _i to 0; _i lt $promchoices.length; _i++>>
   <<capture _i>>
@@ -53,27 +53,21 @@ You can't help but oogle at the @@color:magenta;most gorgeous prom dresses@@ kno
  <</capture>>
 <</for>>
 <</nobr>>
+ <</timed>>
 
 
 :: dress
-
-lets test this...
-You selected prom dress ''<<print $prom + 1>>''
 [img["../assets/" + $promchoices[$prom] + ".png"]]
-
 !Sigh... so gorgerous! 
 <<timed 2s t8n>> "I wish it was possible for me to pull off something so flashy."
-
 <<next 2s t8n>> You've always been a very plain person. 
 
 <<next 2s t8n>> <<linkreplace "Favorite ice cream?">>@@color:magenta;Vanilla.@@<</linkreplace>>
-<<linkreplace "Bed time?">>@@color:magenta;8 P.M. sharp (9 P.M. on the weekends oooo)@@<</linkreplace>> 
+<<linkreplace "Bed time?">>@@color:magenta;8 P.M. sharp@@<</linkreplace>> 
 <<linkreplace"Favorite color?">>@@color:magenta;...You don't even have a solid enough opinion to choose!@@<</linkreplace>>
 
 <<next 5s t8n>>And a this point, you feel like it’s what people expect from you. To blend in, go with the flow and never make any waves. 
-
 <<next 2s t8n>>But you don’t mind! That just you!
-
 <<next 2s t8n>>Plus, you probably won't be going to prom anyways...
 
 [[You leave empty handed.|home]]
@@ -101,8 +95,8 @@ You selected prom dress ''<<print $prom + 1>>''
 :: search
 
 <<timed 0.5s t8n>> This is so embarssing, youre too old for this! These games are for little kids! 
-<<next 3s t8n>>But its so addictingggggggg! And just plain effing cute! 
-<<next 3s t8n>>Plus, you never know what youre gonna get, even the games with ulgy options are fun!!
+<<next 3s t8n>>But its so addictingggggggg! And just plain cute! 
+<<next 3s t8n>>Plus, you never know what youre gonna get, even the games with ugly options are fun!!
 
 <<next 3s t8n>>You begin to scroll
 

@@ -1,19 +1,20 @@
 :: endings
 
-<<if $points lt 4>>
-"Oh no!" You only got <<print $points>> points!? Yeahhhh I don't think that's gonna cut it."
+<<if $points lt 3>>
+[img[../assets/polly.png]] "Oh no!" You only got <<print $points>> points!? Yeahhhh I don't think that's gonna cut it."
 
 You knew you could have done better standing up for yourself today and stepping out of your comfort zone. You just didn't have the guts to do it.
 
-"Well, looks like I can't reward you yet! I'll send you another outfit and you'll have to [[try again at school tomorrow|school]]."
+[img[../assets/polly.png]]"Well, looks like I can't reward you yet! I'll send you another outfit and you'll have to [[try again at school tomorrow|school]]."
+<<set $points = 0>>
 <</if>>
 
-<<if $points gt 3>>
-"YESSSS I know you could do it!!! @@color:magenta;You got all 4 confidence points today!!@@"
+<<if $points gt 2>>
+[img[../assets/polly.png]]"YESSSS I know you could do it!!! @@color:magenta;You got all 4 confidence points today!!@@"
 
 <<timed 3s t8n>> "I have to admit, today felt different! At first I thought I would feel uncomfortable, but then I felt unstopable!"
 
-<<next 3s t8n>> "Sometimes you just need a @@color:magenta;little push to be bold@@! And since you've totaly proven yourself today, I got you a gift!"
+<<next 3s t8n>> [img[../assets/polly.png]]"Sometimes you just need a @@color:magenta;little push to be bold@@! And since you've totaly proven yourself today, I got you a gift!"
 
 <<next 3s t8n>>!DING DONG
 
@@ -21,16 +22,17 @@ You knew you could have done better standing up for yourself today and stepping 
 
 <<next 0.5s t8n>>[[open the package|package2]]
 <</timed>>
+<</if>>
 
 :: package2
 
 <<timed 0.5s t8n>>!GASP
 
-<<next 3s t8n>>DISPLAY CHOSEN DRESS HERE 
+<<next 3s t8n>>[img["../assets/" + $promchoices[$prom] + ".png"]]
 
 <<next 3s t8n>> "Oh my god!!! Polly how did you know!!"
 
-<<next 3s t8n>> But her unblinking eyes just stared back at you. 
+<<next 3s t8n>> [img[../assets/polly.png]]But her unblinking eyes just stared back at you. 
 
 <<next 3s t8n>> Her job had been done, and you know what you need to do. 
 
@@ -38,4 +40,3 @@ You knew you could have done better standing up for yourself today and stepping 
 
 <<next 3s t8n>> @@color:magenta;the end@@
 <</timed>>
-<</if>>

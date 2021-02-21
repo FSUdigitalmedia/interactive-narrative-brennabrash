@@ -7,7 +7,7 @@ You hear a soft knock at the door, your mom enters.
 
 <<timed 3s t8n>> "Hey honey, there's a package here for you! It’s so strange, I swear it wasn’t on the porch last night, and I’ve never heard of the mail man coming this early in the morning."
 
-<<next 3s t8n>> Weird… in your half awake state you don’t care much about the schedule of your local mailman. 
+<<next 3s t8n>> Weird… in your half awake state you don’t care much about the schedule of your local mail man. 
 
 <<next 3s t8n>>"Thanks mom, just leave it on the desk!"
 Hmmm what could it be? I don't think I ordered anything. 
@@ -25,14 +25,18 @@ You open the box….
 
 <<next 3s t8n>> Yet, here it is.
 
-<<next 3s t8n>> The outfit you picked out in the game last night… it's real...
-it's here...
-and it's in my size??!!??!?!?
+<<next 0.5s t8n>>
+[img["../assets/" + $hatchoices[$hat] + ".png"]]
+[img["../assets/" + $topchoices[$top] + ".png"]]
+[img["../assets/" + $bottomchoices[$bottom] + ".png"]]
+[img["../assets/" + $shoechoices[$shoe] + ".png"]]
 
-<<next 3s t8n>> @@color:magenta;What the fuck is going on?@@
-You start to panic, is there some creepy ass stalker on the other side of that game?? Are you about to die??
+<<next 3s t8n>> The outfit you picked out in the game last night… it's real... it's here... and it's in my size??!!??!?!?
 
-<<next 3s t8n>> But.... there can't be any harm in trying it on....
+<<next 3s t8n>> @@color:magenta;What is going on?@@
+You start to panic, is there some creepy stalker on the other side of that game?? Are you about to die??
+
+<<next 3s t8n>> But.... there can't be any harm in trying it on.... right?
 
 <<next 0.5s t8n>> [[get dressed!|dressed]]
 <</timed>>
@@ -40,14 +44,14 @@ You start to panic, is there some creepy ass stalker on the other side of that g
 :: dressed
 Ugh! How are you supposed to go out like this!! 
 
-<<timed 3s t8n>>You turn back and forth in the mirror. I mean, it is soooo stinking cute, but theres no way this isn’t gonna turn heads at school.
+<<timed 3s t8n>>You turn back and forth in the mirror. It is soooo stinking cute, but theres no way this isn’t gonna turn heads at school.
 
 <<next 3s t8n>>Maybe for someone with a more playful style could pull this off no questions asked, but it will be a whole big deal if the plain girl all of a sudden wasn’t so plain. 
-<<next 3s t8n>> !HOW EMBARRASSING!
+<<next 3s t8n>>! HOW EMBARRASSING!
 
 <<next 3s t8n>>"Heyyyyyyy its time to go!!!!!"
 
 <<next 1s t8n>>Oh shit! Well, there's no time to change now or you'll miss the bus!!
 
-[<<next 0.5s t8n>> [[You leave in the outfit|school]]
+[<<next 0.5s t8n>>[[You leave in the outfit|school]]
 <</timed>>
