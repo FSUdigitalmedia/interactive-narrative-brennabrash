@@ -240,17 +240,22 @@ did the game… just hear me??
 &lt;&lt;next 3s t8n&gt;&gt; [img[../assets/polly.png]]Her unblinking eyes stare back at you.
 
 &lt;&lt;next 0.5s t8n&gt;&gt;[[Time for bed!|morning]]
-&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="endgame" tags="" position="1225,100" size="100,100">!&quot;UGH! I&#39;m beat!&quot;
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="endgame" tags="" position="1225,100" size="100,100">&lt;&lt;if visited() gt 1&gt;&gt;
+[[Let&#39;s see how many confidence points we got today!|endgame]]
+&lt;&lt;/if&gt;&gt;
 
-&lt;&lt;timed 3s t8n&gt;&gt; You collapse on the bed. What a wirl wind of a day! There were so many ups and downs, you barely know how to feel about it!
+&lt;&lt;if visited() lt 1&gt;&gt;
+!&quot;UGH! I&#39;m beat!&quot;
 
-&lt;&lt;next 3s t8n&gt;&gt;You sink deeper into the bed. But just when you think you might endugle in an after school nap, you see your laptop out of the corner of your eye.
+&lt;&lt;timed 3s t8n&gt;&gt; You collapse on the bed. What a whirl-wind of a day! There were so many ups and downs, you barely know how to feel about it!
+
+&lt;&lt;next 3s t8n&gt;&gt;You sink deeper into the bed. But just when you think you might indulge in an after school nap, you see your laptop out of the corner of your eye.
 
 &lt;&lt;next 3s t8n&gt;&gt; &quot;OH shit!&quot;, all of a sudden, you aren&#39;t so sleepy anymore.
 
 &lt;&lt;next 3s t8n&gt;&gt;You were so caught up in what people thought about your outfit that you almost forgot where it came from!!
 
-&lt;&lt;next 3s t8n&gt;&gt;&quot;I have to updated Polly!&quot;
+&lt;&lt;next 3s t8n&gt;&gt;&quot;I have to update Polly!&quot;
 You leap up, grab your laptop, and search that familiar google search.
 &lt;&lt;/timed&gt;&gt;
 
@@ -260,7 +265,8 @@ You leap up, grab your laptop, and search that familiar google search.
 &lt;&lt;option &quot;DRESS UP GAMES&quot;&gt;&gt; 
 &lt;&lt;/listbox&gt;&gt;
 &lt;&lt;next 0.5s t8n&gt;&gt;[[search|search2]]
-&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="search2" tags="" position="100,225" size="100,100">&lt;&lt;timed 3s t8n&gt;&gt; [img[../assets/polly.png]] &quot;Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it??&quot;
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="search2" tags="" position="100,225" size="100,100">&lt;&lt;timed 3s t8n&gt;&gt; [img[../assets/polly.png]] &quot;Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it??&quot;
 
 &lt;&lt;next 3s t8n&gt;&gt; &quot;It was an interesting day for sure... but what is going on!! How did you know my address? Or my size??&quot;
 
@@ -325,7 +331,7 @@ You can&#39;t help but oogle at the @@color:magenta;most gorgeous prom dresses@@
 &lt;&lt;option &quot;DRESS UP GAMES&quot;&gt;&gt; 
 &lt;&lt;/listbox&gt;&gt;
 
-[[search]]</tw-passagedata><tw-passagedata pid="17" name="search" tags="" position="850,225" size="100,100">&lt;&lt;timed 0.5s t8n&gt;&gt; This is so embarssing, youre too old for this! These games are for little kids! 
+[[search]]</tw-passagedata><tw-passagedata pid="17" name="search" tags="" position="850,225" size="100,100">&lt;&lt;timed 0.5s t8n&gt;&gt; This is so embarrassing, youre too old for this! These games are for little kids! 
 &lt;&lt;next 3s t8n&gt;&gt;But its so addictinggggggg! And just plain cute! 
 &lt;&lt;next 3s t8n&gt;&gt;Plus, you never know what youre gonna get, even the games with ugly options are fun!!
 
@@ -472,7 +478,7 @@ You stare at each other for another second before he just shrugs and goes back t
 &lt;&lt;next 0.5s t8n&gt;&gt;@@color:magenta;You lost one confidence point.@@
 You now have &lt;&lt;print $points&gt;&gt; points!
 &lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="28" name="lunch" tags="" position="975,350" size="100,100">It&#39;s that time of day. 
-&lt;&lt;timed 2s t8n&gt;&gt;You&#39;re so hungry you can&#39;t seem to focus on anything except that pb and j sandwhich waiting in your backpack. 
+&lt;&lt;timed 2s t8n&gt;&gt;You&#39;re so hungry you can&#39;t seem to focus on anything except that pb&amp;j sandwhich waiting in your backpack. 
 
 &lt;&lt;next 3s t8n&gt;&gt; Okay, not entirely true.
 
@@ -481,7 +487,7 @@ You now have &lt;&lt;print $points&gt;&gt; points!
 &lt;&lt;next 3s t8n&gt;&gt; Dispite your burning crush, you only ever sneeked looks at them during lunch and prayed they would make the first move.
 &lt;&lt;next 3s t8n&gt;&gt; Looking at them now from across the cafetria you can&#39;t help but inwardly gush about the way their hair does that thing and ...
 
-&lt;&lt;next 6s t8n&gt;&gt;!OH SHIT!! THE TOTALLY JUST CAUGHT US LOOKING!
+&lt;&lt;next 6s t8n&gt;&gt;!OH SHIT!! THEY TOTALLY JUST CAUGHT US LOOKING!
 
 &lt;&lt;next 0.5s t8n&gt;&gt;[[We can&#39;t let them know we were staring!!|lookaway]]
 [[Hold their gaze|look]]

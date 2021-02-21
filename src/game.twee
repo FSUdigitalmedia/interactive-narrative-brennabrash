@@ -100,17 +100,22 @@ Pick some kicks!
 <</timed>>
 
 :: endgame
+<<if visited() gt 1>>
+[[Let's see how many confidence points we got today!|endgame]]
+<</if>>
+
+<<if visited() lt 1>>
 !"UGH! I'm beat!"
 
-<<timed 3s t8n>> You collapse on the bed. What a wirl wind of a day! There were so many ups and downs, you barely know how to feel about it!
+<<timed 3s t8n>> You collapse on the bed. What a whirl-wind of a day! There were so many ups and downs, you barely know how to feel about it!
 
-<<next 3s t8n>>You sink deeper into the bed. But just when you think you might endugle in an after school nap, you see your laptop out of the corner of your eye.
+<<next 3s t8n>>You sink deeper into the bed. But just when you think you might indulge in an after school nap, you see your laptop out of the corner of your eye.
 
 <<next 3s t8n>> "OH shit!", all of a sudden, you aren't so sleepy anymore.
 
 <<next 3s t8n>>You were so caught up in what people thought about your outfit that you almost forgot where it came from!!
 
-<<next 3s t8n>>"I have to updated Polly!"
+<<next 3s t8n>>"I have to update Polly!"
 You leap up, grab your laptop, and search that familiar google search.
 <</timed>>
 
@@ -121,6 +126,7 @@ You leap up, grab your laptop, and search that familiar google search.
 <</listbox>>
 <<next 0.5s t8n>>[[search|search2]]
 <</timed>>
+<</if>>
 
 :: search2
 <<timed 3s t8n>> [img[../assets/polly.png]] "Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it??"
