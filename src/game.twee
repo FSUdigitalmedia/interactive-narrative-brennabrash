@@ -125,13 +125,13 @@ You leap up, grab your laptop, and search that familiar google search.
 :: search2
 <<timed 3s t8n>> [img[../assets/polly.png]] "Whats up!! Did you get my package? Did you love love @@color:magenta;LOVE@@ it??"
 
-<<next 3s t8n>> "It was an interesting day for sure... but what is going on!! How did you know my adress? Or my size??"
+<<next 3s t8n>> "It was an interesting day for sure... but what is going on!! How did you know my address? Or my size??"
 
 <<next 3s t8n>> [img[../assets/polly.png]] "Chill out!! Not everyone on the internet has access to this game! I only show up for the people who really need me."
 
 <<next 3s t8n>> "Need you...?"  the more she talks the more confused you feel.
 
-<<next 3s t8n>> [img[../assets/polly.png]] "Yeah, you tottally needed @@color:magenta;a push in the right direction@@, dont even deny it!"
+<<next 3s t8n>> [img[../assets/polly.png]] "Yeah, you totally needed @@color:magenta;a push in the right direction@@, dont even deny it!"
 
 <<next 3s t8n>> "You do have to admit, you would have never done anything like this on your own...
 
