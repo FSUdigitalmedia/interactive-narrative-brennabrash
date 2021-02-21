@@ -100,11 +100,11 @@ You now have <<print $points>> points!
 
 :: lunch
 It's that time of day. 
-<<timed 2s t8n>>You're so hungry you can't seem to focus on anything except that pb&j sandwhich waiting in your backpack. 
+<<timed 2s t8n>>You're so hungry you can't seem to focus on anything except that pb&j sandwich waiting in your backpack. 
 
 <<next 3s t8n>> Okay, not entirely true.
 
-<<next 3s t8n>> You're thinkn' about that @@color:magenta;sandwhich@@ AND that @@color:magenta;special someone@@...
+<<next 3s t8n>> You're thinkn' about that @@color:magenta;sandwich@@ AND that @@color:magenta;special someone@@...
 
 <<next 3s t8n>> Dispite your burning crush, you only ever sneeked looks at them during lunch and prayed they would make the first move.
 <<next 3s t8n>> Looking at them now from across the cafetria you can't help but inwardly gush about the way their hair does that thing and ...

@@ -101,10 +101,11 @@ Pick some kicks!
 
 :: endgame
 <<if visited() gt 1>>
-[[Let's see how many confidence points we got today!|endgame]]
+!"UGH! I'm beat!" 
+Time to check in with Polly and see [[how many confidence points we got today!|endings]]
 <</if>>
 
-<<if visited() lt 1>>
+<<if visited() lt 2>>
 !"UGH! I'm beat!"
 
 <<timed 3s t8n>> You collapse on the bed. What a whirl-wind of a day! There were so many ups and downs, you barely know how to feel about it!
